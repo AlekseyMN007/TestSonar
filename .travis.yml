@@ -1,0 +1,16 @@
+language: csharp
+solution: TestSonarCloud.sln
+
+dist: trusty
+
+  addons:
+  sonarcloud:
+    organization: "arturbabaev"
+    token:
+      secure: "e642b14c6d6adbcd5457f93a280910135810ad84" # encrypted value of your token
+
+script:
+  - sonar-scanner -X
+ branches:
+  only:
+    - master
