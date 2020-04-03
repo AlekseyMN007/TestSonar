@@ -23,5 +23,11 @@ namespace TestSonarCloud
             MainLabel.Text = "Hello SonarCloud";
             MainLabel.ForeColor = Color.Red;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MainLabel.Text = "Hello SonarCloud - Test_2";
+            MainLabel.ForeColor = Color.Aqua;
+        }
     }
 }
