@@ -1,2 +1,9 @@
 language: csharp
-solution: TestSonarCloud.sln
+mono: none
+dotnet: 2.0.0
+dist: trusty
+sudo: false
+script:
+  - dotnet build -c Release
+  - dotnet test ./TestSonarCloud.Tests/TestSonarCloud.Tests.csproj -c Release
+  - dotnet test ./TestSonarCloud.mstest.Tests/TestSonarCloud.mstest.Tests.csproj -c Release
