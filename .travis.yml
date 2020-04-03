@@ -9,8 +9,8 @@ dist: trusty
     token:
       secure: "ea1159079a043a3e4c158c91e94e2fb1457014d5" # encrypted value of your token
 
-script:
-  - sonar-scanner -X
- branches:
-  only:
-    - master
+#script:
+#  - sonar-scanner -X
+# branches:
+#  only:
+#    - master
