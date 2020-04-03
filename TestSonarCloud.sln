@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSonarCloud", "TestSonarCloud\TestSonarCloud.csproj", "{07C7D916-33EA-46CB-B589-6B1DCF72C352}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07C7D916-33EA-46CB-B589-6B1DCF72C352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C7D916-33EA-46CB-B589-6B1DCF72C352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C7D916-33EA-46CB-B589-6B1DCF72C352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C7D916-33EA-46CB-B589-6B1DCF72C352}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BEDD092-F038-4418-89A8-97422472F75C}
+	EndGlobalSection
+EndGlobal
