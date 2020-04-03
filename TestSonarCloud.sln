@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSonarCloud", "TestSonarCloud\TestSonarCloud.csproj", "{07C7D916-33EA-46CB-B589-6B1DCF72C352}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSonarCloud.Tests", "TestSonarCloud.Tests\TestSonarCloud.Tests.csproj", "{D2375BF1-EE25-4C9B-837E-12EA1519B080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSonarCloud.mstest.Tests", "TestSonarCloud.mstest.Tests\TestSonarCloud.mstest.Tests.csproj", "{F06DFBA2-3A46-435F-A2D5-0FAEF700E28E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{07C7D916-33EA-46CB-B589-6B1DCF72C352}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07C7D916-33EA-46CB-B589-6B1DCF72C352}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07C7D916-33EA-46CB-B589-6B1DCF72C352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2375BF1-EE25-4C9B-837E-12EA1519B080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2375BF1-EE25-4C9B-837E-12EA1519B080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2375BF1-EE25-4C9B-837E-12EA1519B080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2375BF1-EE25-4C9B-837E-12EA1519B080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06DFBA2-3A46-435F-A2D5-0FAEF700E28E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06DFBA2-3A46-435F-A2D5-0FAEF700E28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06DFBA2-3A46-435F-A2D5-0FAEF700E28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06DFBA2-3A46-435F-A2D5-0FAEF700E28E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
